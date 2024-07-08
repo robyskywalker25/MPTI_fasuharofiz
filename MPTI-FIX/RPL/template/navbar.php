@@ -26,6 +26,11 @@
               <li class="nav-item active">
                 <a style="color: white;font-weight:bold;  " class="nav-link" href="riwayat.php">Riwayat<span class="sr-only">(current)</span></a>
               </li>
+
+              <li class="nav-item active">
+                <a style="color: white;font-weight:bold;  "  class="nav-link" href="editprofile.php">Profile<span class="sr-only">(current)</span></a>
+              </li> 
+              
               <li class="nav-item active">
                 <a style="color: white;font-weight:bold;  "  class="nav-link" href="logout.php">LogOut<span class="sr-only">(current)</span></a>
               </li>

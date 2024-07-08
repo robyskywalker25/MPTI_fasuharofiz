@@ -69,9 +69,9 @@ if ($id_pelanggan_login !== $id_pelanggan_beli)
 				<label>bank</label>
 				<select class="form-control" name="bank">
           		<option value="bb">Pilih Bank</option>
-  					<option value="bri" ?>BRI
+  					<option value="BRI" ?>BRI
   					</option>
-  					<option value="bca" ?>BCA
+  					<option value="BCA" ?>BCA
   					</option>
   					
           		

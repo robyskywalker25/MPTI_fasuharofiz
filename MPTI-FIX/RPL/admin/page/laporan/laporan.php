@@ -25,7 +25,7 @@ if (isset($_POST["lihat"]))
 
 
 
-<h2>Ladies Store</h2>
+<h2>Toko Bakpia</h2>
 <h4>Laporan dari <strong><?php echo $tgl_mulai ?></strong> Sampai <?php echo $tgl_selesai ?></h4>
 <hr>
 

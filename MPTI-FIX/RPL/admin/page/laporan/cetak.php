@@ -1,13 +1,13 @@
 <?php 
     $koneksi = new mysqli("localhost","root","","tokompti");
 
-    $filename= "pembelian_exel-(".date('d-m-Y').").xls";
+    $filename= "Laporan Pembelian_all-(".date('d-m-Y').").xls";
 
     header("content-disposition: attachment; filename= $filename ");
     header("content-type: application/vdn.ms-excel");
 
  ?>
-<h2 align="center">Toko Ladies Store</h2>
+<h2 align="center">Toko Bakpia</h2>
  <h3 align="center">Laporan Penjualan</h>
 
 

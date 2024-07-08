@@ -7,7 +7,7 @@
     header("content-type: application/vdn.ms-excel");
 
  ?>
-<h2 align="center">Ladies Store</h2>
+<h2 align="center">Toko Bakpia</h2>
  <h3 align="center">Laporan Produk</h>
 
 

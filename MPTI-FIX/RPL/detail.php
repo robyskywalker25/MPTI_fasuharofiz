@@ -65,7 +65,7 @@ $detail = $ambil->fetch_assoc();
 						$jumlah = $_POST["jumlah"];
 
 						//msukanke keranjang belanja
-						$_SESSION["keranjang"][$id_produk]= $jumlah;
+						$_SESSION["keranjang"][$id_produk]+= $jumlah;
 
 						echo "<script>alert ('produk telah ditambahkan ke keranjang belanja');</script>";
 						echo "<script>location='keranjang.php';</script>";

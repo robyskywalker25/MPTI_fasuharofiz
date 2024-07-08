@@ -40,6 +40,7 @@ include 'koneksi.php';
       <div class="form-group">
         <label>Password</label>
         <input type="password" class="form-control" name="password">
+        <a href="lupa_password.php" class="btn btn-link">Lupa Password ?</a><br> <!-- Tambahkan link ke halaman lupa password -->
       </div>
       <button class="btn btn-primary" name="login">Login</button>
     </form>
@@ -65,8 +66,7 @@ include 'koneksi.php';
       $akun = $ambil->fetch_assoc();
       // simpan di session pelanggan
       $_SESSION["pelanggan"] = $akun;
-      echo "<script>alert ('anda  suskes login');</script>";
-
+      echo "<script>alert ('Anda sukses login');</script>";
 
       //jk sdh belanja
       if (isset($_SESSION["keranjang"]) OR !empty($_SESSION["keranjang"])) 
@@ -83,7 +83,7 @@ include 'koneksi.php';
     else
     {
       //gagal login
-      echo "<script>alert ('anda gagal login periksa akun anda');</script>";
+      echo "<script>alert ('Anda gagal login, periksa akun anda!');</script>";
       echo "<script>location='login.php';</script>";
 
     }

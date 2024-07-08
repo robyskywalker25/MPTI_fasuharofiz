@@ -31,6 +31,9 @@ if(!isset($_SESSION['admin']))
 <!-- TABLE STYLES-->
   <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
 
+   <!--CHART-->
+  <!-- Include Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div id="wrapper">

@@ -59,10 +59,10 @@ include 'koneksi.php';
                   <img src="img/BakpiaBanner01.png" class="d-block w-100 img-fluid" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/BakpiaBanner02.png" class="d-block w-100" alt="...">
+                  <img src="img/BakpiaBanner03.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/BakpiaBanner02.png" class="d-block w-100" alt="...">
+                  <img src="img/BakpiaBanner04.png" class="d-block w-100" alt="...">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
