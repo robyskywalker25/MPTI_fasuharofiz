@@ -1,0 +1,7 @@
+1. tambahan pada  file detail.php line 68 :
+    yang awalnya: $_SESSION["keranjang"][$id_produk]= $jumlah;
+    menjadi : $_SESSION["keranjang"][$id_produk]+= $jumlah;
+
+    alasan : untuk menambah jumlah produk yang dibeli jika kasusnya membeli produk dari detail dengan umlah tertentu,
+             lalu setelah masuk ke keranjang menambah produk lagi dengan produk yang sama dan beli lewat fitur detail.
+             maka jumlah produk yang dibeli diawal dan yang ke dua kalinya akan dijumlah.
